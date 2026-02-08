@@ -1,6 +1,6 @@
 //
-//  RegisterViewController.swift
-//  Flash Chat iOS13
+//  LoginViewController.swift
+//  Flash Chat IOS
 //
 //  Created by Angela Yu on 21/10/2019.
 //  Copyright © 2019 Angela Yu. All rights reserved.
@@ -8,12 +8,13 @@
 
 import UIKit
 
-class RegisterViewController: UIViewController {
+class LoginViewController: UIViewController {
 
     @IBOutlet weak var emailTextfield: UITextField!
     @IBOutlet weak var passwordTextfield: UITextField!
     
-    @IBAction func registerPressed(_ sender: UIButton) {
+
+    @IBAction func loginPressed(_ sender: UIButton) {
     }
     
 }
