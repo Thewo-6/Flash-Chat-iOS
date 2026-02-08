@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62818E235DF01000E35CAF /* LoginViewController.swift */; };
 		0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B628190235DF01B00E35CAF /* ChatViewController.swift */; };
 		0B62819E235F0F4D00E35CAF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0B62819D235F0F4D00E35CAF /* README.md */; };
+		B4B3E4D32F386C5400A3905E /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = B4B3E4D22F386C4300A3905E /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,15 +33,14 @@
 		0B62818E235DF01000E35CAF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0B628190235DF01B00E35CAF /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		0B62819D235F0F4D00E35CAF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B4B3E4D22F386C4300A3905E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0B628170235DEE8100E35CAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -48,6 +48,7 @@
 		0B62816A235DEE8100E35CAF = {
 			isa = PBXGroup;
 			children = (
+				B4B3E4D22F386C4300A3905E /* .gitignore */,
 				0B62819D235F0F4D00E35CAF /* README.md */,
 				0B628175235DEE8100E35CAF /* Flash Chat IOS */,
 				0B628174235DEE8100E35CAF /* Products */,
@@ -65,9 +66,9 @@
 		0B628175235DEE8100E35CAF /* Flash Chat IOS */ = {
 			isa = PBXGroup;
 			children = (
+				B48FEF682F3856E7001A56DA /* Models */,
 				0B628176235DEE8100E35CAF /* AppDelegate.swift */,
 				0B628178235DEE8100E35CAF /* SceneDelegate.swift */,
-				0B628194235DF03A00E35CAF /* Models */,
 				0B628193235DF03400E35CAF /* Views */,
 				0B628192235DF02000E35CAF /* Controllers */,
 				0B62817F235DEE8400E35CAF /* Assets.xcassets */,
@@ -96,7 +97,7 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		0B628194235DF03A00E35CAF /* Models */ = {
+		B48FEF682F3856E7001A56DA /* Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -106,17 +107,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0B628172235DEE8100E35CAF /* Flash Chat iOS */ = {
+		0B628172235DEE8100E35CAF /* Flash Chat IOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B628187235DEE8400E35CAF /* Build configuration list for PBXNativeTarget "Flash Chat iOS" */;
+			buildConfigurationList = 0B628187235DEE8400E35CAF /* Build configuration list for PBXNativeTarget "Flash Chat IOS" */;
 			buildPhases = (
 				0B62816F235DEE8100E35CAF /* Sources */,
 				0B628170235DEE8100E35CAF /* Frameworks */,
 				0B628171235DEE8100E35CAF /* Resources */,
 			);
 			buildRules = (
-			);
-			dependencies = (
 			);
 			name = "Flash Chat IOS";
 			productName = "Flash Chat IOS";
@@ -131,15 +130,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1110;
-				ORGANIZATIONNAME = "Angela Yu";
+				ORGANIZATIONNAME = Max_;
 				TargetAttributes = {
 					0B628172235DEE8100E35CAF = {
 						CreatedOnToolsVersion = 11.1;
 					};
 				};
 			};
-			buildConfigurationList = 0B62816E235DEE8100E35CAF /* Build configuration list for PBXProject "Flash Chat IOS" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 0B62816E235DEE8100E35CAF /* Build configuration list for PBXProject "Flash Chat iOS" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -147,6 +145,7 @@
 				Base,
 			);
 			mainGroup = 0B62816A235DEE8100E35CAF;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = 0B628174235DEE8100E35CAF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -159,30 +158,27 @@
 /* Begin PBXResourcesBuildPhase section */
 		0B628171235DEE8100E35CAF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */,
 				0B628180235DEE8400E35CAF /* Assets.xcassets in Resources */,
 				0B62819E235F0F4D00E35CAF /* README.md in Resources */,
 				0B62817E235DEE8100E35CAF /* Main.storyboard in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0B62816F235DEE8100E35CAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				0B62818B235DF00000E35CAF /* WelcomeViewController.swift in Sources */,
+				B4B3E4D32F386C5400A3905E /* .gitignore in Sources */,
 				0B628177235DEE8100E35CAF /* AppDelegate.swift in Sources */,
 				0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */,
 				0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */,
 				0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */,
 				0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
@@ -206,7 +202,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0B628185235DEE8400E35CAF /* Debug */ = {
+		0B628185235DEE8400E35CAF /* Debug configuration for PBXProject "Flash Chat iOS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,7 +262,7 @@
 			};
 			name = Debug;
 		};
-		0B628186235DEE8400E35CAF /* Release */ = {
+		0B628186235DEE8400E35CAF /* Release configuration for PBXProject "Flash Chat iOS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -320,7 +316,7 @@
 			};
 			name = Release;
 		};
-		0B628188235DEE8400E35CAF /* Debug */ = {
+		0B628188235DEE8400E35CAF /* Debug configuration for PBXNativeTarget "Flash Chat IOS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -338,7 +334,7 @@
 			};
 			name = Debug;
 		};
-		0B628189235DEE8400E35CAF /* Release */ = {
+		0B628189235DEE8400E35CAF /* Release configuration for PBXNativeTarget "Flash Chat IOS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -359,22 +355,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B62816E235DEE8100E35CAF /* Build configuration list for PBXProject "Flash Chat IOS" */ = {
+		0B62816E235DEE8100E35CAF /* Build configuration list for PBXProject "Flash Chat iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B628185235DEE8400E35CAF /* Debug */,
-				0B628186235DEE8400E35CAF /* Release */,
+				0B628185235DEE8400E35CAF /* Debug configuration for PBXProject "Flash Chat iOS" */,
+				0B628186235DEE8400E35CAF /* Release configuration for PBXProject "Flash Chat iOS" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B628187235DEE8400E35CAF /* Build configuration list for PBXNativeTarget "Flash Chat iOS" */ = {
+		0B628187235DEE8400E35CAF /* Build configuration list for PBXNativeTarget "Flash Chat IOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B628188235DEE8400E35CAF /* Debug */,
-				0B628189235DEE8400E35CAF /* Release */,
+				0B628188235DEE8400E35CAF /* Debug configuration for PBXNativeTarget "Flash Chat IOS" */,
+				0B628189235DEE8400E35CAF /* Release configuration for PBXNativeTarget "Flash Chat IOS" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
