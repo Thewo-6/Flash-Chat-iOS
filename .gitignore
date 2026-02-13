@@ -1,10 +1,18 @@
-//
-//  .gitignore
-//  Flash Chat IOS
-//
-//  Created by Max Ally Wolf THERESIAS on 2026/2/8.
-//  Copyright © 2026 Max_. All rights reserved.
-//
 
+# macOS
 .DS_Store
 
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# CocoaPods
+Pods/
+
+# GoogleService-Info.plist
+Flash Chat iOS/GoogleService-Info.plist
